@@ -1,8 +1,9 @@
 import java.util.Scanner;
-
+import javax.swing.*;
 public class Programa {
 
     public static void main(String[] args) {
+        new Screen();
         Vocations knight = new Vocations();
         knight.metodoDeBusca = "Knight";
         knight.nomeVocacao = "Knight";
