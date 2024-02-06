@@ -1,10 +1,13 @@
 import javax.swing.*;
 
-public class Screen {
+public class Screen extends JFrame{
     public Screen() {
-        JFrame jFrame = new JFrame("Teste de janela");
-        jFrame.setVisible(true);
-        jFrame.setSize(500,650);
+        setTitle("Tibia Calculator");
+        setVisible(true);
+        setSize(500,650);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setResizable(false);
+        setLocationRelativeTo(null);
     }
 
 }
